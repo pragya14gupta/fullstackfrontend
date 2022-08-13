@@ -1,9 +1,20 @@
-function App() {
+import React from "react";
+import Navbar from "./component/navbar";
+import Center from "./component/center";
+import Footer from "./component/footer";
+import List from "./component/list";
+import Form from "./component/form";
+
+const App =()=> {
   return (
-    <div className="App">
-      <h1>Hii from react</h1>
-    </div>
+   <>
+   <Navbar/>
+   <Center/>
+   <Form/>
+   <List/>
+   <Footer/>
+   </>
   );
-}
+};
 
 export default App;
