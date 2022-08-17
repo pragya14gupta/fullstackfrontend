@@ -1,0 +1,15 @@
+.row{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.start{
+    border-radius: 5px;
+    background-color: bisque;
+    
+}
+.stop{
+    border-radius: 5px;
+    background-color: rgb(234, 111, 62);
+    margin-left: 20px;
+}

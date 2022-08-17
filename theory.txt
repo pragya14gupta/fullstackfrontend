@@ -1,0 +1,85 @@
+const express = require('express') // this import method is used in backend
+import express from "express"
+// but if you want to import anything from frontend, syntax changes
+module.exports = App; // backend
+export default App; // frontend
+Our React app consists of a Main Parent component, called App.js. 
+Component is basically a function which returns html.
+Components are always imported with capital letter
+10/08/22
+Make a react app, which contains 5 components,
+1=> Navbar
+2=> Center component
+3=> List component which shows list of 5 fruites
+4=> A form component which takes 3 inputs, name,email,password
+5=> footer component
+Ps: You can use bootstrap
+The component where other child components are called is called Parent Component for those components.
+Component is basically a function which returns html.
+Component is basically a function which returns jsx.
+jsx stands for javascript xml.
+JSX = 99% html + 1% variation
+Migrating from HTML to jsx requires following variations-
+1. class is changed with className ( To differentiate between oops class and css class)
+2. JSX always returns a single element (Single element means enclosed with a single tag i.e. start and end with same tag)
+To deal with this we always return compoents with a single tag i.e. <> and </>
+3. Single tags needs a self enclosing tag 
+i.e. <img> changes to <img/>
+    <a> changes to <a/>
+    <br> changes to <br/>
+    <input> changes to <input />
+4.html attributes are the additional information written in starting tags of html elements
+e.g className,id,name,src,href,alt etc
+In react, we need to make this sure that jsx attributes  always be written
+in camelcase method.
+(camelcase means every new word should starts with capital letter (except first, which is always written in small))
+html attribute e.g. onclick,onmousehover ,onmouseover are converted into jsx attribute in camelcase
+jsx attribute e.g. onClick,onMouseHover,onMouseOver
+In react, CSS is used in same way as in normal html
+All the properties of css are exactly same.
+css can be used in two ways...
+1. by making a separate file and writing usual css code with classname and stuufs
+2. In-line css.  Here, we write the css code on the tag itself as an attribute
+ In line css is done using "style" attribute
+ In line css is done inside style attribute by putting double curly brackets. {{}}
+ 14/08
+ Parent-Child architecture of compoents
+ Component return JSX(Modified html)
+ JSX rules
+ Use of bootstrap and practicing jsx components.
+ Use of CSS (Both Inline css, and External css)
+ Use of Javascript in html (jsx) (important)
+1. Use of Javascript in two ways
+a> Javascript code is written above return statement
+b> Inline javascript => Javascript is always written inside html, with a curly bracket
+onClick attribute is used when we want to do some action (function)
+on click of that button/tag
+
+Whenever we want our same component to show different information, according to different
+case, then this is acheived by javascript (called dynamic rendering)
+case, then this is acheived by javascript (called dynamic rendering)
+
+
+DOM defines the logical structure of documents 
+and the way a document is accessed and manipulated with the help of javascript.
+Dom is of Two types i.e.
+
+1. Real DOM
+Real DOM updates slow, because it updates the overall document and
+and reloading takes place
+
+2. Virtual DOM
+Virtual DOM updates faster because it only updates that particular component which is changed
+not the whole document.
+
+
+USESTATE
+Whenever we update value of a variable in a component using normal updation,
+then that component is not updated and reflects the previous value only.
+
+This can be solved by refreshing our component, everytime when any value is changed,
+This can be acheived using useState.
+Usestates updates the component whenever state changes
+
+variable ===> state
+updating variable ===> setstate
