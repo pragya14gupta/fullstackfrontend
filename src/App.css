@@ -2,7 +2,10 @@
     margin-top: 20px;
     margin-left: 20px;
 }
-
+.rows{
+    margin-top: 20px;
+    margin-left: 20px; 
+}
 .start{
     border-radius: 5px;
     background-color: bisque;
@@ -12,4 +15,7 @@
     border-radius: 5px;
     background-color: rgb(234, 111, 62);
     margin-left: 20px;
+}
+.button{
+    background-color: rgb(85, 182, 150);
 }

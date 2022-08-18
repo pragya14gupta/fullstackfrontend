@@ -11,7 +11,7 @@ const Center = () => {
     };
   return (
     <>
-      <h1>
+      <h1 className="rows">
         Current Counter : <span style={{ color: "blue" }}>{counter}</span>
       </h1>
 
