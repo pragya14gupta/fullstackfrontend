@@ -1,23 +1,17 @@
 import React from 'react';
 
-const List = () => {
-    return(
-    <div>
-    <br />
-        <h3>This is the List Component</h3>
-        <br />
-        <ul>
-        <div className="card" style={{width: "18rem"}}>
-        <img src="..." className="card-img-top" alt="..."/>
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-        </ul>
-    </div>
-    )
-}
+const List = ({pragya}) =>{
+  return(
+      <>
+      <h1>hello</h1>
+
+      <button btn btn-success onClick={()=>pragya()}>click</button>
+     
+    
+
+      
+      </>
+  )
+};
 
 export default List;
