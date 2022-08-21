@@ -8,9 +8,9 @@ const IncCounter=()=>{
     },[counter]);
     return(
         <>
-        <h1>counter:{counter}</h1>
+        <h1  className='rows'>counter:{counter}</h1>
 
-        <button onClick={()=>setcounter(counter+1)}> inreament</button>
+        <button onClick={()=>setcounter(counter+1)}  className='rows'> inreament</button>
 
 
 
@@ -19,3 +19,4 @@ const IncCounter=()=>{
 }
 
 export default IncCounter;
+
